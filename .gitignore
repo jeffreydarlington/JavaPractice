@@ -3,9 +3,16 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
+.eclipse
 
 ### IntelliJ IDEA ###
-./.idea
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml

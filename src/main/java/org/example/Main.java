@@ -14,8 +14,6 @@ public class Main {
         System.out.println("\nAfter popping out");
 
         stack.printStack();
-=======
         System.out.println("Hello");
->>>>>>> 3467b3d50f349fc8224931b59cbdb594ed226572
     }
 }

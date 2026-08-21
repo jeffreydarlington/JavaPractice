@@ -13,6 +13,5 @@ public class Main {
         System.out.println("\nAfter popping out");
 
         stack.printStack();
-        System.out.println("Hello");
     }
 }

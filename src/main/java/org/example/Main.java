@@ -2,7 +2,6 @@ package org.example;
 // Stack Implementation
 public class Main {
     public static void main(String[] args) {
-<<<<<<< HEAD
         Stack stack = new Stack(5);
 
         stack.push(1);

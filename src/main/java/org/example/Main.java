@@ -2,6 +2,7 @@ package org.example;
 // Stack Implementation
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
         Stack stack = new Stack(5);
 
         stack.push(1);
@@ -13,5 +14,8 @@ public class Main {
         System.out.println("\nAfter popping out");
 
         stack.printStack();
+=======
+        System.out.println("Hello");
+>>>>>>> 3467b3d50f349fc8224931b59cbdb594ed226572
     }
 }

@@ -29,6 +29,25 @@ public class test {
         return total;
     }
 
+    static boolean hasDuplicate(int[] arr){
+        for(int i = 0; i < arr.length; i++){
+            for(int j = i + 1; j < arr.length; j++){
+                if(arr[i] == arr[j]){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    static int[] doubleAll(int[] arr){
+        int[] result = new int[arr.length];
+        for(int i = 0; i < arr.length; i++){
+            result[i] = arr[i] * 2;
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         int[] arr = {5, 2, 8, 1, 9, 3};
 
@@ -37,8 +56,7 @@ public class test {
 
         // Test binarySearch (array MUST be sorted for this to work)
         int[] sorted = {1, 2, 3, 5, 8, 9};
-        System.out.println("Index of 8: " + binarySearch(sorted, 8));
-        System.out.println("Index of 4: " + binarySearch(sorted, 4));
-
+        System.out.println("Index of 2: " + binarySearch(sorted, 3));
+        //System.out.println("Index of 4: " + binarySearch(sorted, 2));
     }
 }
